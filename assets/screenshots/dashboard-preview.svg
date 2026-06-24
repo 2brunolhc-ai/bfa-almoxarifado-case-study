@@ -1,0 +1,50 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#064e3b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="560" rx="32" fill="url(#bg)"/>
+  <circle cx="1040" cy="100" r="126" fill="#34d399" opacity="0.10"/>
+  <circle cx="148" cy="468" r="142" fill="#38bdf8" opacity="0.08"/>
+  <text x="72" y="78" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="3">CASE STUDY FULL STACK</text>
+  <text x="72" y="136" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="800">BFA Almoxarifado</text>
+  <text x="72" y="178" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="23">Gestão de materiais, requisições, ferramentas e notas fiscais.</text>
+  <g transform="translate(72 224)">
+    <rect width="205" height="110" rx="20" fill="#020617" fill-opacity="0.72" stroke="#22c55e" stroke-opacity="0.35"/>
+    <text x="24" y="43" fill="#86efac" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Estoque</text>
+    <text x="24" y="74" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">1.240</text>
+    <text x="24" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">itens fictícios</text>
+    <rect x="229" width="205" height="110" rx="20" fill="#020617" fill-opacity="0.72" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <text x="253" y="43" fill="#7dd3fc" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Requisições</text>
+    <text x="253" y="74" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">86</text>
+    <text x="253" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">em acompanhamento</text>
+    <rect x="458" width="205" height="110" rx="20" fill="#020617" fill-opacity="0.72" stroke="#facc15" stroke-opacity="0.35"/>
+    <text x="482" y="43" fill="#fde68a" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Notas fiscais</text>
+    <text x="482" y="74" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800">OCR</text>
+    <text x="482" y="96" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">leitura de PDFs</text>
+  </g>
+  <g transform="translate(725 86)" filter="url(#shadow)">
+    <rect width="390" height="388" rx="28" fill="#020617"/>
+    <rect x="28" y="28" width="334" height="44" rx="14" fill="#111827"/>
+    <text x="48" y="57" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Dashboard operacional</text>
+    <rect x="28" y="96" width="334" height="58" rx="16" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.3"/>
+    <text x="50" y="130" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Entrada de materiais</text>
+    <rect x="255" y="115" width="82" height="20" rx="10" fill="#14532d"/>
+    <text x="273" y="130" fill="#bbf7d0" font-family="Segoe UI, Arial, sans-serif" font-size="12">ok</text>
+    <rect x="28" y="172" width="334" height="58" rx="16" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.3"/>
+    <text x="50" y="206" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Saída por requisição</text>
+    <rect x="255" y="191" width="82" height="20" rx="10" fill="#0c4a6e"/>
+    <text x="270" y="206" fill="#bae6fd" font-family="Segoe UI, Arial, sans-serif" font-size="12">fila</text>
+    <rect x="28" y="248" width="334" height="58" rx="16" fill="#0f172a" stroke="#facc15" stroke-opacity="0.3"/>
+    <text x="50" y="282" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="16">Backup validado</text>
+    <rect x="255" y="267" width="82" height="20" rx="10" fill="#713f12"/>
+    <text x="270" y="282" fill="#fef3c7" font-family="Segoe UI, Arial, sans-serif" font-size="12">ativo</text>
+    <text x="30" y="348" fill="#64748b" font-family="Segoe UI, Arial, sans-serif" font-size="13">Dados meramente ilustrativos</text>
+  </g>
+</svg>

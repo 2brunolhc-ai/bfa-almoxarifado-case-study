@@ -1,12 +1,29 @@
-# BFA Almoxarifado - Sistema Full Stack para Gestão de Materiais
+<p align="center">
+  <img src="./assets/screenshots/dashboard-preview.svg" alt="Preview visual do BFA Almoxarifado" width="100%" />
+</p>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=000)
-![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-4169E1?logo=postgresql&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-ready-5A0FC8)
-![Electron](https://img.shields.io/badge/Electron-desktop-47848F?logo=electron&logoColor=white)
+<h1 align="center">BFA Almoxarifado - Sistema Full Stack para Gestão de Materiais</h1>
+
+<p align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Supabase-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="PWA" src="https://img.shields.io/badge/PWA-ready-5A0FC8?style=for-the-badge" />
+  <img alt="Electron" src="https://img.shields.io/badge/Electron-desktop-47848F?style=for-the-badge&logo=electron&logoColor=white" />
+</p>
 
 Sistema desenvolvido para controle de materiais e processos de almoxarifado na construção civil, com foco em estoque, entradas, saídas, requisições, ferramentas, notas fiscais, relatórios e automações.
+
+## Visão rápida
+
+| Item | Detalhe |
+| --- | --- |
+| Tipo | Sistema web/full stack com apoio desktop |
+| Domínio | Almoxarifado, estoque, ferramentas e notas fiscais |
+| Banco | PostgreSQL/Supabase |
+| Automação | OCR, leitura de PDFs e agente Electron |
+| Privacidade | Código-fonte principal privado |
+| Repositório | Estudo de caso público, sem dados reais |
 
 ## Sobre o projeto
 
@@ -22,21 +39,13 @@ O sistema foi desenvolvido para reduzir retrabalho, melhorar rastreabilidade e t
 
 ## Principais funcionalidades
 
-- Controle de estoque
-- Entrada de materiais
-- Saída de materiais
-- Requisições internas
-- Controle de ferramentas
-- Empréstimos/devoluções
-- Notas fiscais
-- Leitura de PDFs/OCR
-- Dashboard
-- Relatórios
-- Controle por obra
-- Backup e recuperação de dados
-- Sistema responsivo/PWA
-- Agente desktop com Electron
-- Integração com banco PostgreSQL/Supabase
+| Estoque e obras | Processos | Automação e dados |
+| --- | --- | --- |
+| Controle de estoque | Requisições internas | Leitura de PDFs/OCR |
+| Entrada de materiais | Controle de ferramentas | Dashboard |
+| Saída de materiais | Empréstimos/devoluções | Relatórios |
+| Controle por obra | Notas fiscais | Backup e recuperação |
+| PWA responsivo | Agente desktop Electron | PostgreSQL/Supabase |
 
 ## Tecnologias utilizadas
 
@@ -85,15 +94,9 @@ flowchart TD
 - Aplicação responsiva com suporte a uso como PWA.
 - Evolução incremental com versionamento e documentação técnica.
 
-## Prints ou imagens demonstrativas
+## Demonstração visual
 
-Os prints públicos ainda não foram adicionados. Qualquer imagem incluída neste repositório deve estar tratada e conter apenas dados fictícios, sem nomes reais de obras, empresas, fornecedores, usuários, notas fiscais ou informações internas.
-
-Pasta sugerida para imagens públicas:
-
-```txt
-assets/screenshots/
-```
+O preview no topo é um mockup público com dados fictícios. Prints reais só devem ser adicionados depois de tratados, sem nomes reais de obras, empresas, fornecedores, usuários, notas fiscais ou informações internas.
 
 ## Status do projeto
 
