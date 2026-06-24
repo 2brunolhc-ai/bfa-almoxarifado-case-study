@@ -1,0 +1,34 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs and temp
+*.log
+.DS_Store
+.vscode/
+temp/
+tmp/
+
+# Backups and private data
+backups/
+backup/
+*.bak
+*.sqlite
+*.db
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.json
+
+# Raw/private media
+assets/private/
+assets/screenshots/raw/
